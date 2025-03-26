@@ -1,12 +1,75 @@
-# React + Vite
+# 🚀 Task Tracker with Tests 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📌 **Week 9 Deliverable – Unit, Integration & E2E Testing in React**
 
-Currently, two official plugins are available:
+This project is a **Task Tracker App** built with **React (Vite) & Material-UI**, focusing on **unit, integration, and end-to-end (E2E) testing** using:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ **Jest & React Testing Library** (Unit & Integration Tests)
+- ✅ **Cypress** (End-to-End Testing)
 
-## Expanding the ESLint configuration
+### 🌟 **Features**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✔ Add, edit, and delete tasks  
+✔ Beautiful **Material-UI** design  
+✔ **State Management** with Context API  
+✔ **Unit Tests** for individual components  
+✔ **Integration Tests** for interactions  
+✔ **E2E Tests** using Cypress
+
+### 🛠 **Tech Stack**
+
+- ⚛️ **React (Vite)**
+- 🎨 **Material-UI**
+- 🗄 **Context API** (State Management)
+- ✅ **Jest & React Testing Library** (Unit & Integration)
+- 🧪 **Cypress** (E2E Testing)
+
+### 🚀 **How to Run Locally**
+
+1️⃣ Clone the repository
+
+```sh
+git clone https://github.com/brilliant-smart/FIP-FrontEnd-Week-9.git
+cd FIP-FrontEnd-Week-9
+```
+
+2️⃣ Install dependencies
+
+```sh
+npm install
+```
+
+3️⃣ Start the development server
+
+```sh
+npm run dev
+```
+
+4️⃣ Run Unit & Integration Tests
+
+```sh
+npm test
+```
+
+5️⃣ Run Cypress E2E Tests
+
+```sh
+npx cypress open
+```
+
+### 🌍 **Live Demo**
+
+🔗 **[View on GitHub Pages](https://brilliant-smart.github.io/FIP-FrontEnd-Week-9/)**
+
+---
+
+### 📌 **Project Goals**
+
+This project demonstrates **React Testing methodologies** in a real-world scenario, following best practices for:  
+✅ Unit Testing  
+✅ Integration Testing  
+✅ End-to-End (E2E) Testing
+
+---
+
+💡 **Built with passion by [brilliant-smart](https://github.com/brilliant-smart)** for FIP cohort 2025 internship
