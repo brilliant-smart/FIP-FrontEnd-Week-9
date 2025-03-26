@@ -8,7 +8,9 @@ import {
   ListItem,
   IconButton,
 } from "@mui/material";
-import { Delete, CheckCircle, RadioButtonUnchecked } from "@mui/icons-material";
+import DeleteIcon from "@mui/icons-material/Delete";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 
 const TodoList = () => {
   const { tasks, addTask, toggleTask, deleteTask } = useContext(TodoContext);
@@ -55,13 +57,13 @@ const TodoList = () => {
             <div>
               <IconButton onClick={() => toggleTask(task.id)}>
                 {task.completed ? (
-                  <CheckCircle color="success" />
+                  <CheckCircleIcon color="success" />
                 ) : (
-                  <RadioButtonUnchecked />
+                  <RadioButtonUncheckedIcon />
                 )}
               </IconButton>
               <IconButton onClick={() => deleteTask(task.id)}>
-                <Delete color="error" />
+                <DeleteIcon color="error" />
               </IconButton>
             </div>
           </ListItem>
